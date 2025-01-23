@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cake Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            margin: 20px;
+        }
+        .cake {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cake img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .cake-description {
+            margin: 10px 0;
+        }
+        .cake-price {
+            font-size: 1.2em;
+            color: #e74c3c;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Niks Bakery</h1>
-    <p>Contact me at: <!--email_off-->23f1000422@ds.study.iitm.ac.in<!--/email_off--></p>
+    <div class="header">
+        <h1>Welcome to Our Cake Shop</h1>
+    </div>
+    <div class="container">
+        <div class="cake">
+            <img src="path/to/cake1.jpg" alt="Chocolate Cake">
+            <div class="cake-description">
+                <h2>Chocolate Cake</h2>
+                <p>Delicious and rich chocolate cake with a smooth frosting. Perfect for any occasion.</p>
+                <p class="cake-price">$20.00</p>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="path/to/cake2.jpg" alt="Vanilla Cake">
+            <div class="cake-description">
+                <h2>Vanilla Cake</h2>
+                <p>Classic vanilla cake with a light and fluffy texture, topped with creamy vanilla frosting.</p>
+                <p class="cake-price">$18.00</p>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="path/to/cake3.jpg" alt="Red Velvet Cake">
+            <div class="cake-description">
+                <h2>Red Velvet Cake</h2>
+                <p>A rich and moist red velvet cake with a hint of cocoa, topped with cream cheese frosting.</p>
+                <p class="cake-price">$22.00</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
