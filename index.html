@@ -3,74 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cake Shop</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #ffcc00;
-            padding: 20px;
-            text-align: center;
-        }
-        .header h1 {
-            margin: 0;
-        }
-        .container {
-            margin: 20px;
-        }
-        .cake {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .cake img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .cake-description {
-            margin: 10px 0;
-        }
-        .cake-price {
-            font-size: 1.2em;
-            color: #e74c3c;
-        }
-    </style>
+    <title>Nik's Bakery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Welcome to Our Cake Shop</h1>
-    </div>
-    <div class="container">
-        <div class="cake">
-            <div class="cake-description">
-                <h2>Chocolate Cake</h2>
-                <p>Delicious and rich chocolate cake with a smooth frosting. Perfect for any occasion.</p>
-                <p class="cake-price">$20.00</p>
-            </div>
-        </div>
-        <div class="cake">
-            <div class="cake-description">
-                <h2>Vanilla Cake</h2>
-                <p>Classic vanilla cake with a light and fluffy texture, topped with creamy vanilla frosting.</p>
-                <p class="cake-price">$18.00</p>
-            </div>
-        </div>
-        <div class="cake">
-            <div class="cake-description">
-                <h2>Red Velvet Cake</h2>
-                <p>A rich and moist red velvet cake with a hint of cocoa, topped with cream cheese frosting.</p>
-                <p class="cake-price">$22.00</p>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>Welcome to Nik's Bakery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Custum Cakes">Custum Cakes</a></li>
+            <li><a href="#Cup-Cakes & Donuts">Cup-Cakes & Donuts</a></li>
+            <li><a href="#Our Starters">Our Starters</a></li>
+        </ul>
+    </nav>
+
+    <section id="video-container">
+        <video id="cakeVideo" autoplay loop controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="story">
+        <h2>About Us</h2>
+        <p>At Nik's Bakery, we believe in the magic of baking. Our story began with a passion for creating delicious treats that bring joy to every occasion. From custom cakes to delightful pastries, we are dedicated to crafting the perfect dessert for you.</p>
+        <p>Our team of skilled bakers uses only the finest ingredients to ensure that every bite is a moment of bliss. Whether it's a birthday, wedding, or just a sweet craving, we are here to make your dreams come true.</p>
+        <p>Join us on this delicious journey and experience the love and care that goes into every creation. Welcome to Nik's Bakery, where every bite is a celebration!</p>
+
+    </section>
+
     <footer>
-        <p>Contact us at: <!--email_off-->23f1000422@ds.study.iitm.ac.in<!--/email_off--></p>
-    </footer>
+      <p>&copy; 2025 Nik's Bakery. All Rights Reserved.</p>
+      <p>Follow us on:
+          <a href="https://www.facebook.com/NiksBakery" target="_blank">Facebook</a> |
+          <a href="https://www.instagram.com/NiksBakery" target="_blank">Instagram</a> |
+          <a href="https://www.twitter.com/NiksBakery" target="_blank">Twitter</a>
+      </p>
+      <p>Contact us: <a href="mailto:info@niksbakery.com">info@niksbakery.com</a></p>
+  </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
